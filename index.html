@@ -1,21 +1,60 @@
 <!DOCTYPE html>
-
+<html lang="en">
 <head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177741742-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-177741742-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	  gtag('config', 'UA-177741742-1');
+	</script>
 
-  gtag('config', 'UA-177741742-1');
-</script>
-
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" href="custom.css">
 </head>
+<body>
+	<section class="hero_image">
+		<div class="hero_wrapper">
+			<h1>THE FOOD YOU LOVE</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur obcaecati labore culpa rem adipisci magnam, unde nostrum provident aut nisi.</p>
+			<span>post</span>
+			<form class="form_code"> 
 
-<object
-  type="text/html"
-  data="/.netlify/functions/server"
-  style="width:100%;height:100%;"
->
+				<input class="post_code" type="text" placeholder="Enter your post code">
+				<button type="submit">Find Food</button>
+			</form>
+		</div>
+	</section>
+
+	<section class="product">
+		<div class="product__list__item">
+			<img class="img-responsive" src="food1.jpg" alt="">
+			<h2 class="product_heading">
+				Food 1
+			</h2>
+			<p>Food 1 Description</p>
+		</div>
+
+		<div class="product__list__item">
+			<img class="img-responsive" src="food2.jpg" alt="">
+			<h2 class="product_heading">
+				Food 2
+			</h2>
+			<p>Food 2 Description</p>
+		</div>
+		<div class="product__list__item">
+			<img class="img-responsive" src="food3.jpg" alt="">
+			<h2 class="product_heading">
+				Food 3
+			</h2>
+			<p>Food 3 Description</p>
+		</div>
+
+	</section>
+</body>
+</html>
