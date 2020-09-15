@@ -2,12 +2,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-header {
-    background: gray;
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
-}
 
 ul{
     float: right;
@@ -49,7 +43,6 @@ ul li a:hover{
     color: #fff;
     font-size: 70px;
     align-items: center;
-
 }
 
 .button{
@@ -57,12 +50,6 @@ ul li a:hover{
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-}
-
-.button p{
-    text-align: justify;
-    color: white;
 }
 
 .btn{

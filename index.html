@@ -16,7 +16,6 @@
         <link rel="stylesheet" type="text/css" href="style1.css">
 		<link rel="stylesheet" href="normalize.css">
 		<link rel="stylesheet" href="custom_new.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 
     <body>
@@ -29,10 +28,11 @@
     			<p>
     				The Office
     			</p>
-    			<form class="form_code">
-    				<input class="type_in_text" type="text" placeholder="Enter the season">
+    			<form class="form_code" action="https://google.com/search" method="get">
+    				<input class="type_in_text" type="hidden" name="the office" value="the office">
+					<input class="type_in_text"type="text" name="q" />
     				<button type="submit">
-    					Find Season
+    					Search Google
     				</button>    				 
     			</form>
     		</div>
