@@ -39,7 +39,12 @@
     		<div class="main">
                 <ul>
                     <li>
-                    	<a href="https://www.google.com/search?q=The+Office+US" target="blank" onClick="ga('send','event','Link','Click','About',5);">
+                    	<a href="https://www.google.com/search?q=The+Office+US" target="blank" onclick="ga('send', {
+							  hitType: 'event',
+							  eventCategory: 'Major',
+							  eventAction: 'Click',
+							  eventLabel: 'About'
+							});">
                     		About
                     	</a>
                     </li>
