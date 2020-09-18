@@ -29,8 +29,8 @@
     			</p>
     			<form class="form_code" action="https://google.com/search" method="get">
     				<input class="type_in_text" type="hidden" name="the office" value="the office">
-					<input class="type_in_text"type="text" name="q" />
-    				<button type="submit">
+					<input class="type_in_text"type="text" name="q"  onclick="gtag('event','Click', {'event_category': 'Search','event_label':'Search Google Bar','value':5});"/>
+    				<button type="submit" onclick="gtag('event','Click', {'event_category': 'Search','event_label':'Search Google Button','value':5});">
     					Search Google
     				</button>    				 
     			</form>
@@ -38,6 +38,7 @@
 
     		<div class="main">
                 <ul>
+                	<li><a href="https://www.google.com/search?q=the+office+memes" onclick="gtag('event','Click', {'event_category': 'Top Bar','event_label':'Memes','value':5});">Memes</a> </li>
                     <li>
                     	<a href="https://www.google.com/search?q=The+Office+US" target="blank" onclick="gtag('event','Click', {'event_category': 'Top Bar','event_label':'About','value':5});">About</a>
                     </li>
