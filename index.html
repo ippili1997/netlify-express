@@ -12,26 +12,6 @@
 	  gtag('config', 'UA-177741742-1');
 	</script>
 
-        <!-- Facebook Pixel Code -->
-        <script>
-            !function(f,b,e,v,n,t,s)
-            {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-                n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-                if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-                n.queue=[];t=b.createElement(e);t.async=!0;
-                t.src=v;s=b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t,s)}(window,document,'script',
-                    'https://connect.facebook.net/en_US/fbevents.js');
-                fbq('init', '943211362832348');
-                fbq('track', 'PageView');
-            </script>
-        <noscript>
-            <img height="1" width="1"
-            src="https://www.facebook.com/tr?id=943211362832348&ev=PageView
-            &noscript=1"/>
-        </noscript>
-        <!-- End Facebook Pixel Code -->
-
         <meta charset="utf-8">
 		<title>World's Favorite Show</title>
         <link rel="stylesheet" type="text/css" href="style1.css">
@@ -42,10 +22,10 @@
     <body>
     	<section class="hero_image">
     		<div class="hero_wrapper">
-    			<h1 onclick="gtag('event','Click', {'event_category': 'Title','event_label':'Main','value':5});">
+    			<h1 href="index.html" onclick="gtag('event','Click', {'event_category': 'Title','event_label':'Main','value':5});">
     				World's Favorite Show
     			</h1>
-    			<p onclick="gtag('event','Click', {'event_category': 'Title','event_label':'Main','value':5});">
+    			<p href="index.html" onclick="gtag('event','Click', {'event_category': 'Title','event_label':'Main','value':5});">
     				The Office
     			</p>
     			<form class="form_code" action="https://google.com/search" method="get">
@@ -61,9 +41,9 @@
                 <ul>
                 	<li><a href="https://www.google.com/search?q=The+Office+Memes" target="blank" onclick="gtag('event','Click', {'event_category': 'Top Bar','event_label':'Memes','value':5});">Memes</a> </li>
                     <li>
-                    	<a href="https://www.google.com/search?q=The+Office+US" target="blank" onclick="gtag('event','Click', {'event_category': 'Top Bar','event_label':'About','value':5});">About</a>
+                    	<a href="about.html" target="blank" onclick="gtag('event','Click', {'event_category': 'Top Bar','event_label':'About','value':5});">About</a>
                     </li>
-                    <li><a href="#" onclick="gtag('event','Click', {'event_category': 'Top Bar','event_label':'Home','value':5});">Home</a> </li>
+                    <li><a href="index.html" onclick="gtag('event','Click', {'event_category': 'Top Bar','event_label':'Home','value':5});">Home</a> </li>
                 </ul>
 
                 <div class="button">
